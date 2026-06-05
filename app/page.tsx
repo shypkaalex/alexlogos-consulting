@@ -1,5 +1,4 @@
 import Image from "next/image";
-const gold = "#D4AF37";
 
 export default function Home() {
   const services = [
@@ -23,15 +22,15 @@ export default function Home() {
     <main className="min-h-screen bg-[#08111F] text-white">
       <section className="relative mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-6 py-24 text-center">
         <div className="mb-10">
-  <Image
-  src="/alc-logo-v2.png"
-  alt="Alex Logos Consulting"
-  width={500}
-  height={500}
-  priority
-  className="mx-auto h-auto w-[220px] md:w-[280px]"
-/>
-</div>
+          <Image
+            src="/alc-logo-v2.png"
+            alt="Alex Logos Consulting"
+            width={500}
+            height={500}
+            priority
+            className="mx-auto h-auto w-[220px] md:w-[280px]"
+          />
+        </div>
 
         <p className="mb-4 text-xs uppercase tracking-[0.45em] text-slate-300">
           Powered by LES AION
@@ -132,16 +131,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-6 py-24">
-        <div className="grid items-center gap-12 md:grid-cols-[1fr_1.4fr]">
-          <div className="rounded-3xl border border-[#D4AF37]/40 bg-[#101B2D] p-10 text-center">
-            <div className="mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full border border-[#D4AF37]/70 text-2xl font-semibold tracking-[0.2em] text-[#D4AF37]">
-              OS
-            </div>
-
-            <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
-              Founder
-            </p>
+      <section className="mx-auto max-w-6xl px-6 py-24">
+        <div className="grid gap-12 md:grid-cols-2 md:items-center">
+          <div className="flex justify-center">
+            <Image
+              src="/oleksandr.jpg"
+              alt="Oleksandr Shypka"
+              width={500}
+              height={500}
+              className="h-auto w-full max-w-md rounded-3xl object-cover shadow-2xl shadow-black/40"
+            />
           </div>
 
           <div>
@@ -159,14 +158,21 @@ export default function Home() {
               Bridge Builder | Strategic Advisor | Chief Clarity Officer
             </p>
 
+            <p className="mb-4 leading-8 text-slate-300">
+              Oleksandr Shypka is a bridge builder with 22 years of experience
+              across business, government and civil society.
+            </p>
+
+            <p className="mb-4 leading-8 text-slate-300">
+              His work focuses on helping people and organizations gain
+              clarity, connect the right partners and transform complex
+              challenges into actionable solutions.
+            </p>
+
             <p className="leading-8 text-slate-300">
-              Oleksandr helps people and organizations gain clarity, connect
-              the right stakeholders and transform ideas into actionable
-              solutions. His work combines business, public affairs,
-              international partnerships and AI-enabled solution design. With 22
-              years of experience across business, government and civil society,
-              he has learned that the most powerful solutions emerge when the
-              right people gain clarity at the right moment.
+              Through Alex Logos Consulting and the LES AION methodology, he
+              helps clients move from uncertainty to strategic direction and
+              measurable results.
             </p>
           </div>
         </div>
