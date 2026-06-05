@@ -130,7 +130,7 @@ export default function Home() {
     rel="noopener noreferrer"
     className="inline-flex items-center rounded-full border border-[#D4AF37] bg-[#D4AF37] px-8 py-4 text-lg font-semibold text-[#08111F] transition hover:scale-105 hover:bg-[#E5C158]"
   >
-    Contact ALC
+    Book a Strategic Clarity Session
   </a>
 </div>
 
