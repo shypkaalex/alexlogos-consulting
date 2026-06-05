@@ -1,3 +1,4 @@
+import Image from "next/image";
 const gold = "#D4AF37";
 
 export default function Home() {
@@ -21,9 +22,16 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#08111F] text-white">
       <section className="relative mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-6 py-24 text-center">
-        <div className="mb-10 flex h-20 w-20 items-center justify-center rounded-full border border-[#D4AF37]/60 text-xl font-semibold tracking-[0.2em] text-[#D4AF37]">
-          ALC
-        </div>
+        <div className="mb-10">
+  <Image
+  src="/alc-logo-v2.png"
+  alt="Alex Logos Consulting"
+  width={500}
+  height={500}
+  priority
+  className="mx-auto h-auto w-[220px] md:w-[280px]"
+/>
+</div>
 
         <p className="mb-4 text-xs uppercase tracking-[0.45em] text-slate-300">
           Powered by LES AION
