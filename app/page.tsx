@@ -123,6 +123,17 @@ export default function Home() {
             Human clarity remains at the center of every engagement.
           </p>
 
+<div className="mt-10">
+  <a
+    href="https://calendly.com/lesaion-world/30min"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center rounded-full border border-[#D4AF37] bg-[#D4AF37] px-8 py-4 text-lg font-semibold text-[#08111F] transition hover:scale-105 hover:bg-[#E5C158]"
+  >
+    Contact ALC
+  </a>
+</div>
+
           <p className="mb-4 text-xl text-[#D4AF37]">
             Technology serves the mission.
           </p>
