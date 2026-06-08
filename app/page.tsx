@@ -77,27 +77,31 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-6 py-24 text-center">
-        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#D4AF37]">
-          How It Works
-        </p>
+      <section className="mx-auto max-w-6xl px-6 py-24 text-center">
+  <p className="mb-8 text-sm uppercase tracking-[0.35em] text-[#D4AF37]">
+  HOW IT WORKS
+</p>
 
-        <h2 className="mb-16 text-4xl font-bold">
-          Clarity. Blueprint. Orchestration. Results.
-        </h2>
+<div className="flex flex-col items-center justify-center gap-6 text-2xl font-semibold md:flex-row md:text-3xl">
+  <span>Clarity</span>
 
-        <div className="grid gap-10 md:grid-cols-4">
-          {steps.map((step, index) => (
-            <div key={step} className="rounded-3xl border border-white/10 p-8">
-              <p className="mb-4 text-5xl font-bold text-[#D4AF37]">
-                {index + 1}
-              </p>
+  <span className="text-[#D4AF37]">→</span>
 
-              <p className="text-xl font-medium">{step}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+  <span>Strategy</span>
+
+  <span className="text-[#D4AF37]">→</span>
+
+  <span>Partnerships</span>
+
+  <span className="text-[#D4AF37]">→</span>
+
+  <span>Results</span>
+</div>
+
+<p className="mt-12 text-sm uppercase tracking-[0.45em] text-[#D4AF37]">
+  From Uncertainty to Execution
+</p>
+</section>
 
       <section className="bg-[#101B2D] py-24">
         <div className="mx-auto max-w-4xl px-6 text-center">
