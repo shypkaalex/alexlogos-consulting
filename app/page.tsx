@@ -111,9 +111,9 @@ export default function Home() {
             solution development.
           </p>
 
-          <p className="mb-4 text-xl">
-            Human clarity remains at the center of every engagement.
-          </p>
+          <p className="mb-4 text-xl text-[#D4AF37] font-medium">
+  Human clarity remains at the center of every engagement.
+</p>
 
 <div className="mt-10">
   
@@ -123,7 +123,9 @@ export default function Home() {
             Technology serves the mission.
           </p>
 
-          <p className="text-xl">Results remain the objective.</p>
+          <p className="text-xl text-[#D4AF37] font-medium">
+  Results remain the objective.
+</p>
         </div>
       </section>
 
