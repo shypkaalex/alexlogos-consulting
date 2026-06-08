@@ -23,21 +23,16 @@ export default function Home() {
       <section className="relative mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-6 py-24 text-center">
         <div className="mb-10 w-full max-w-6xl overflow-hidden rounded-3xl">
   <Image
-    src="/alc-baner.png"
-    alt="Alex Logos Consulting"
-    width={1983}
-    height={793}
-    priority
-    className="w-full h-auto"
-  />
+  src="/alc-site-logo.png"
+  alt="Alex Logos Consulting"
+  width={800}
+  height={800}
+  className="mx-auto w-full max-w-md md:max-w-md"
+  priority
+/>
 </div>
 
-        <p className="mb-4 text-xs uppercase tracking-[0.45em] text-slate-300">
-          Powered by LES AION
-        </p>
-
-        <div className="mb-8 h-[2px] w-32 bg-[#D4AF37]" />
-
+        
         
         <p className="mx-auto max-w-3xl text-lg leading-8 text-slate-300">
           We help people, businesses and organizations transform complex
