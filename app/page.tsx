@@ -124,14 +124,7 @@ export default function Home() {
           </p>
 
 <div className="mt-10">
-  <a
-    href="https://calendly.com/lesaion-world/30min"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center rounded-full border border-[#D4AF37] bg-[#D4AF37] px-8 py-4 text-lg font-semibold text-[#08111F] transition hover:scale-105 hover:bg-[#E5C158]"
-  >
-    Book a Strategic Clarity Session
-  </a>
+  
 </div>
 
           <p className="mb-4 text-xl text-[#D4AF37]">
@@ -146,7 +139,7 @@ export default function Home() {
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div className="flex justify-center">
             <Image
-              src="/oleksandr.jpg"
+              src="/les-alc.png"
               alt="Les Shypka"
               width={500}
               height={500}
@@ -185,6 +178,38 @@ export default function Home() {
               helps clients move from uncertainty to strategic direction and
               measurable results.
             </p>
+
+            <div className="mt-10 flex flex-wrap gap-4">
+
+  <a
+    href="https://www.linkedin.com/in/les-shypka"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-xl border border-[#D4AF37]/40 px-5 py-3 text-sm font-medium text-white transition hover:border-[#D4AF37] hover:text-[#D4AF37]"
+  >
+    LinkedIn
+  </a>
+
+  <a
+    href="mailto:les@alexlogos.consulting"
+    className="rounded-xl border border-[#D4AF37]/40 px-5 py-3 text-sm font-medium text-white transition hover:border-[#D4AF37] hover:text-[#D4AF37]"
+  >
+    Email
+  </a>
+
+  <a
+    href="https://calendly.com/lesaion-world/30min"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-xl bg-[#D4AF37] px-5 py-3 text-sm font-semibold text-black transition hover:opacity-90"
+  >
+    Strategic Clarity Session
+  </a>
+
+</div>
+<p className="mt-8 text-sm tracking-[0.15em] text-[#D4AF37]/80">
+   Your Bridge to the World's Most Exclusive Network 
+</p>
           </div>
         </div>
       </section>
