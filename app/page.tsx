@@ -21,16 +21,16 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#08111F] text-white">
       <section className="relative mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-6 py-24 text-center">
-        <div className="mb-10">
-          <Image
-            src="/alc-logo-v3.png"
-            alt="Alex Logos Consulting"
-            width={500}
-            height={500}
-            priority
-            className="mx-auto h-auto w-[220px] md:w-[280px]"
-          />
-        </div>
+        <div className="mb-10 w-full max-w-6xl overflow-hidden rounded-3xl">
+  <Image
+    src="/alc-baner.png"
+    alt="Alex Logos Consulting"
+    width={1983}
+    height={793}
+    priority
+    className="w-full h-auto"
+  />
+</div>
 
         <p className="mb-4 text-xs uppercase tracking-[0.45em] text-slate-300">
           Powered by LES AION
@@ -38,14 +38,7 @@ export default function Home() {
 
         <div className="mb-8 h-[2px] w-32 bg-[#D4AF37]" />
 
-        <h1 className="mb-6 text-5xl font-bold tracking-tight md:text-6xl">
-          Alex Logos Consulting
-        </h1>
-
-        <h2 className="mb-8 text-2xl text-[#D4AF37] md:text-3xl">
-          From Clarity to Results
-        </h2>
-
+        
         <p className="mx-auto max-w-3xl text-lg leading-8 text-slate-300">
           We help people, businesses and organizations transform complex
           challenges into clear strategies, actionable blueprints and measurable
