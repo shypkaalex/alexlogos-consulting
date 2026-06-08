@@ -23,7 +23,7 @@ export default function Home() {
       <section className="relative mx-auto flex min-h-screen max-w-6xl flex-col items-center justify-center px-6 py-24 text-center">
         <div className="mb-10">
           <Image
-            src="/alc-logo-v2.png"
+            src="/alc-logo-v3.png"
             alt="Alex Logos Consulting"
             width={500}
             height={500}
@@ -147,7 +147,7 @@ export default function Home() {
           <div className="flex justify-center">
             <Image
               src="/oleksandr.jpg"
-              alt="Oleksandr Shypka"
+              alt="Les Shypka"
               width={500}
               height={500}
               className="h-auto w-full max-w-md rounded-3xl object-cover shadow-2xl shadow-black/40"
@@ -159,7 +159,7 @@ export default function Home() {
               Meet the Bridge Builder
             </p>
 
-            <h2 className="mb-4 text-4xl font-bold">Oleksandr Shypka</h2>
+            <h2 className="mb-4 text-4xl font-bold">Les Shypka</h2>
 
             <p className="mb-6 text-lg text-[#D4AF37]">
               Founder of Alex Logos Consulting
@@ -170,7 +170,7 @@ export default function Home() {
             </p>
 
             <p className="mb-4 leading-8 text-slate-300">
-              Oleksandr Shypka is a bridge builder with 22 years of experience
+              Les Shypka is a bridge builder with 22 years of experience
               across business, government and civil society.
             </p>
 
