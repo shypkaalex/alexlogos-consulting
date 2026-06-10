@@ -192,7 +192,7 @@ export default function Home() {
   </a>
 
   <a
-    href="https://calendly.com/lesaion-world/30min"
+    href="https://scheduler.zoom.us/les-shypka-alc"
     target="_blank"
     rel="noopener noreferrer"
     className="rounded-xl bg-[#D4AF37] px-5 py-3 text-sm font-semibold text-black transition hover:opacity-90"
