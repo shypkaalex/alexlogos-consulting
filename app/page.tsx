@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const services = [
@@ -15,8 +16,6 @@ export default function Home() {
       text: "When required, we help clients move from blueprint to reality through our network of partners, experts and organizations.",
     },
   ];
-
-  const steps = ["Clarity", "Blueprint", "Orchestration", "Results"];
 
   return (
     <main className="min-h-screen bg-[#08111F] text-white">
@@ -43,6 +42,22 @@ export default function Home() {
         <p className="mt-8 text-xl font-medium text-[#D4AF37]">
           Human Clarity. AI-Powered Solution Design. Real-World Results.
         </p>
+
+        <div className="mt-10 rounded-2xl border border-[#D4AF37]/30 bg-[#101B2D] px-7 py-6">
+          <p className="mb-2 text-sm uppercase tracking-[0.25em] text-[#D4AF37]">
+            Experience Capital
+          </p>
+          <p className="mb-5 max-w-2xl text-slate-300">
+            Discover how a lifetime of experience could become consulting,
+            mentoring, a book, income or a lasting legacy.
+          </p>
+          <Link
+            href="/experience-capital"
+            className="inline-flex rounded-xl bg-[#D4AF37] px-6 py-3 font-semibold text-black transition hover:opacity-90"
+          >
+            Take the free 7-minute reflection
+          </Link>
+        </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-6 py-24">
@@ -202,7 +217,7 @@ export default function Home() {
 
 </div>
 <p className="mt-8 text-sm tracking-[0.15em] text-[#D4AF37]/80">
-   Your Bridge to the World's Most Exclusive Network 
+   Your Bridge to the World&apos;s Most Exclusive Network 
 </p>
           </div>
         </div>
