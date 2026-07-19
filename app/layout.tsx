@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Logos Consulting | From Clarity to Results",
-  description: "Alex Logos Consulting helps people, businesses and organizations transform complex challenges into clear strategies, actionable blueprints and measurable outcomes. Powered by LES AION.",
+  title: "Alex Logos Consulting | We Build the Bridge",
+  description: "Alex Logos Consulting recognizes unique human value, designs the bridge to the people who need it, and builds the infrastructure that brings it to life. Powered by LES AION.",
 };
 
 export default function RootLayout({
